@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(219, 208, 57);
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(223, 184, 137);
+}
+.flexbox > div {
+    background-color: #f1f1f1;
+    background-size: cover;
+    width: 350px;
+    margin: 25px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    line-height: 75px;
+  }
+.top{
+    display: flex;
+}
+.top >div{
+    background-color: rgb(214, 204, 113);
+    width: 700%;
+    margin: 25px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+}
+.bottom >div{
+    background-color: rgb(197, 164, 228);
+    width: 700%;
+    margin: 25px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    text-align: center;
+}
+.gallery >div{
+    background-color: rgb(233, 147, 36);
+    text-align: center;
+    width: fit-content;
+    padding: 20px;
+    font-size: 35px;
+    line-height: 45px;
+}
+figcaption {
+    color: #575760;
+	font-size: 30px;
+}
